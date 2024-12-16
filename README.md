@@ -1,0 +1,1 @@
+# lego-edu-automation-qa-challenge
