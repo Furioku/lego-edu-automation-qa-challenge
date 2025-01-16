@@ -3,7 +3,7 @@ import { fixture } from "../../hooks/pageFixture";
 import * as productsDiscription from "../../helper/test-data/productsListDescription.json"
 import * as productsPrice from "../../helper/test-data/productsListPrice.json"
 import HelperPage from "../../helper/helperFunctions";
-import CartPage from "../../pages/CartPage";
+import CartPage from "../../pages/cartPage";
 
 setDefaultTimeout(60 * 1000 * 2)
 
