@@ -16,9 +16,9 @@ Feature: Checkout
         When User enters a valid shipping address
         And Clicks Continue button
         Then User should be redirected to the payment page
-        And User should be able to see correct item, item price, tax ammount, and total price to payment
+        And User should be able to see correct item, item price, tax amount, and total price to payment
         When User press finish button
-        Then User is able to see order conformation
+        Then User is able to see order confirmation
 
 
     

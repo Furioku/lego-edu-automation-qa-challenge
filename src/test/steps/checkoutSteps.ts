@@ -34,7 +34,7 @@ Then('User should be redirected to the payment page', async function () {
     await helperPage.assertPage(checkoutPage.Locators.paymentInfo);
 });
 
-Then('User should be able to see correct item, item price, tax ammount, and total price to payment', async function () {
+Then('User should be able to see correct item, item price, tax amount, and total price to payment', async function () {
     await checkoutPage.verifyPaymentInfo(cartPage.Locators.firstItemInCart, "Sauce Labs Backpack", productsPrice.Backpackcarry)
 });
 
@@ -42,7 +42,7 @@ When('User press finish button', async function () {
     await helperPage.pressBtn(checkoutPage.Locators.finishBtn);    
 });
 
-Then('User is able to see order conformation', async function () {
+Then('User is able to see order confirmation', async function () {
     await helperPage.assertPage(checkoutPage.Locators.orderFinishSubHeader);
     await helperPage.assertPage(checkoutPage.Locators.finishLableImg);
     await helperPage.assertPage(checkoutPage.Locators.confirmTxt);
