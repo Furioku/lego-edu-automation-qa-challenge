@@ -2,7 +2,7 @@ import { When, Then, setDefaultTimeout } from "@cucumber/cucumber";
 import { fixture } from "../../hooks/pageFixture";
 import * as productsPrice from "../../helper/test-data/productsListPrice.json"
 import HelperPage from "../../helper/helperFunctions";
-import CartPage from "../../pages/CartPage";
+import CartPage from "../../pages/cartPage";
 import CheckoutPage from "../../pages/checkoutPage";
 
 setDefaultTimeout(60 * 1000 * 2)
